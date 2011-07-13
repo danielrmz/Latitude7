@@ -1,0 +1,11 @@
+C:\Projects\LatitudeMarker\WebUI\bin\WebUI.dll
+C:\Projects\LatitudeMarker\WebUI\bin\WebUI.pdb
+C:\Projects\LatitudeMarker\WebUI\bin\EntityFramework.dll
+C:\Projects\LatitudeMarker\WebUI\bin\EntityFramework.xml
+C:\Projects\LatitudeMarker\WebUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LatitudeMarker\WebUI\obj\Debug\WebUI.dll
+C:\Projects\LatitudeMarker\WebUI\obj\Debug\WebUI.pdb
+C:\Projects\LatitudeMarker\WebUI\bin\Latitude.dll
+C:\Projects\LatitudeMarker\WebUI\bin\Latitude.pdb
+C:\Projects\LatitudeMarker\WebUI\bin\Hammock.dll
+C:\Projects\LatitudeMarker\WebUI\bin\Hammock.pdb

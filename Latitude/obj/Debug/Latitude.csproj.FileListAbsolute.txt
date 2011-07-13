@@ -1,0 +1,7 @@
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Latitude.dll
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Latitude.pdb
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Hammock.dll
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Hammock.pdb
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\Latitude.dll
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\Latitude.pdb
