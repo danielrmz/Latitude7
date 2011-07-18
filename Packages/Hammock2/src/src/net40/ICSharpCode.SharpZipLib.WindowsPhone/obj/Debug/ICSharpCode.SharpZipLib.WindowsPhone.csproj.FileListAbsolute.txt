@@ -1,0 +1,5 @@
+C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\ICSharpCode.SharpZipLib.WindowsPhone\Bin\Debug\ICSharpCode.SharpZipLib.WindowsPhone.dll
+C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\ICSharpCode.SharpZipLib.WindowsPhone\Bin\Debug\ICSharpCode.SharpZipLib.WindowsPhone.pdb
+C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\ICSharpCode.SharpZipLib.WindowsPhone\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\ICSharpCode.SharpZipLib.WindowsPhone\obj\Debug\ICSharpCode.SharpZipLib.WindowsPhone.dll
+C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\ICSharpCode.SharpZipLib.WindowsPhone\obj\Debug\ICSharpCode.SharpZipLib.WindowsPhone.pdb
