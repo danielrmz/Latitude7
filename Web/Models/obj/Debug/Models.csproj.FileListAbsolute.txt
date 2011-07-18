@@ -1,0 +1,8 @@
+C:\Projects\Latitude7\Web\Models\bin\Debug\Common7.Web.Models.dll
+C:\Projects\Latitude7\Web\Models\bin\Debug\Common7.Web.Models.pdb
+C:\Projects\Latitude7\Web\Models\bin\Debug\ServiceStack.Text.dll
+C:\Projects\Latitude7\Web\Models\bin\Debug\ServiceStack.Text.pdb
+C:\Projects\Latitude7\Web\Models\bin\Debug\ServiceStack.Text.xml
+C:\Projects\Latitude7\Web\Models\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Latitude7\Web\Models\obj\Debug\Common7.Web.Models.dll
+C:\Projects\Latitude7\Web\Models\obj\Debug\Common7.Web.Models.pdb

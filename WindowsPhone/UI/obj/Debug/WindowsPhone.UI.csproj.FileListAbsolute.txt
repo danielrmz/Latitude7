@@ -1,0 +1,13 @@
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\ApplicationIcon.png
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\Background.png
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\Latitude7.WindowsPhone.UI.dll
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\Latitude7.WindowsPhone.UI.pdb
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\AppManifest.xaml
+C:\Projects\Latitude7\WindowsPhone\UI\Bin\Debug\WindowsPhone.UI.xap
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\App.g.i.cs
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\MainPage.g.i.cs
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\Latitude7.WindowsPhone.UI.g.resources
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\Latitude7.WindowsPhone.UI.dll
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\Latitude7.WindowsPhone.UI.pdb
+C:\Projects\Latitude7\WindowsPhone\UI\obj\Debug\XapCacheFile.xml

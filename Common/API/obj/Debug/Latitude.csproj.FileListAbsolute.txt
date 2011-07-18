@@ -1,0 +1,17 @@
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Latitude.dll
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Latitude.pdb
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Hammock.dll
+C:\Projects\LatitudeMarker\Latitude\bin\Debug\Hammock.pdb
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\Latitude.dll
+C:\Projects\LatitudeMarker\Latitude\obj\Debug\Latitude.pdb
+C:\Projects\Latitude7\Common\API\bin\Debug\Latitude.dll
+C:\Projects\Latitude7\Common\API\bin\Debug\Latitude.pdb
+C:\Projects\Latitude7\Common\API\bin\Debug\Common7.Models.dll
+C:\Projects\Latitude7\Common\API\bin\Debug\Common7.Models.pdb
+C:\Projects\Latitude7\Common\API\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Latitude7\Common\API\obj\Debug\Latitude.dll
+C:\Projects\Latitude7\Common\API\obj\Debug\Latitude.pdb
+C:\Projects\Latitude7\Common\API\bin\Debug\ServiceStack.Text.dll
+C:\Projects\Latitude7\Common\API\bin\Debug\ServiceStack.Text.pdb
+C:\Projects\Latitude7\Common\API\bin\Debug\ServiceStack.Text.xml

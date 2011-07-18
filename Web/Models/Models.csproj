@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{728D2433-C37E-465E-8C3C-CF9EA383D2A0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Common7.Models</RootNamespace>
+    <AssemblyName>Common7.Web.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\..\packages\ServiceStack.Text.2.26\lib\net35\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common\Models\Google\Common\Error.cs">
+      <Link>Google\Common\Error.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\Common\ErrorContainer.cs">
+      <Link>Google\Common\ErrorContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\Common\SpecificError.cs">
+      <Link>Google\Common\SpecificError.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\Latitude\Location.cs">
+      <Link>Google\Latitude\Location.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\Latitude\Parameters.Base.cs">
+      <Link>Google\Latitude\Parameters.Base.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\Latitude\Result.cs">
+      <Link>Google\Latitude\Result.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\OAuth\Token.Access.cs">
+      <Link>Google\OAuth\Token.Access.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\OAuth\Token.cs">
+      <Link>Google\OAuth\Token.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Google\OAuth\Token.Request.cs">
+      <Link>Google\OAuth\Token.Request.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\Models\Loader.cs">
+      <Link>Loader.cs</Link>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

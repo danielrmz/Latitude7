@@ -1,0 +1,5 @@
+C:\Projects\Latitude7\WindowsPhone\Models\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Latitude7\WindowsPhone\Models\Bin\Debug\Latitude7.WindowsPhone.Models.dll
+C:\Projects\Latitude7\WindowsPhone\Models\Bin\Debug\Latitude7.WindowsPhone.Models.pdb
+C:\Projects\Latitude7\WindowsPhone\Models\obj\Debug\Latitude7.WindowsPhone.Models.dll
+C:\Projects\Latitude7\WindowsPhone\Models\obj\Debug\Latitude7.WindowsPhone.Models.pdb

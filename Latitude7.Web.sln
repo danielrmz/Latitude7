@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "Web\UI\UI.csproj", "{38759C3A-6D18-40CC-9DA5-71E4C23231E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Web\Models\Models.csproj", "{728D2433-C37E-465E-8C3C-CF9EA383D2A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latitude", "Web\Latitude\Latitude.csproj", "{FC3510DE-356C-4A09-8AD1-C9B39288305B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hammock", "Packages\Hammock\src\net40\Hammock\Hammock.csproj", "{CD569558-9092-466B-8670-EA1B151150E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{6FEB69D9-85EF-41BA-ACAD-3208B12D7BC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{03B185C0-1B19-4798-A2B4-7D0D6E33571B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ClientProfiles|Any CPU = ClientProfiles|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.ClientProfiles|Any CPU.ActiveCfg = Release|Any CPU
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.ClientProfiles|Any CPU.Build.0 = Release|Any CPU
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38759C3A-6D18-40CC-9DA5-71E4C23231E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.ClientProfiles|Any CPU.ActiveCfg = Release|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.ClientProfiles|Any CPU.Build.0 = Release|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.ClientProfiles|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.ClientProfiles|Any CPU.Build.0 = Release|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.ClientProfiles|Any CPU.ActiveCfg = ClientProfiles|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.ClientProfiles|Any CPU.Build.0 = ClientProfiles|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD569558-9092-466B-8670-EA1B151150E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD569558-9092-466B-8670-EA1B151150E0} = {6FEB69D9-85EF-41BA-ACAD-3208B12D7BC4}
+		{728D2433-C37E-465E-8C3C-CF9EA383D2A0} = {03B185C0-1B19-4798-A2B4-7D0D6E33571B}
+		{FC3510DE-356C-4A09-8AD1-C9B39288305B} = {03B185C0-1B19-4798-A2B4-7D0D6E33571B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+C:\Projects\Latitude7\Web\UI\bin\Latitude7.Web.UI.dll
+C:\Projects\Latitude7\Web\UI\bin\Latitude7.Web.UI.pdb
+C:\Projects\Latitude7\Web\UI\bin\Common7.Web.Models.dll
+C:\Projects\Latitude7\Web\UI\bin\Latitude7.API.dll
+C:\Projects\Latitude7\Web\UI\bin\Hammock.dll
+C:\Projects\Latitude7\Web\UI\bin\ServiceStack.Text.dll
+C:\Projects\Latitude7\Web\UI\bin\Latitude7.API.pdb
+C:\Projects\Latitude7\Web\UI\bin\Common7.Web.Models.pdb
+C:\Projects\Latitude7\Web\UI\bin\Hammock.pdb
+C:\Projects\Latitude7\Web\UI\bin\ServiceStack.Text.pdb
+C:\Projects\Latitude7\Web\UI\bin\ServiceStack.Text.xml
+C:\Projects\Latitude7\Web\UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Latitude7\Web\UI\obj\Debug\Latitude7.Web.UI.dll
+C:\Projects\Latitude7\Web\UI\obj\Debug\Latitude7.Web.UI.pdb
