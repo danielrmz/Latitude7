@@ -1,5 +1,0 @@
-C:\Projects\LatitudeMarker\Models\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\LatitudeMarker\Models\Bin\Debug\Models.dll
-C:\Projects\LatitudeMarker\Models\Bin\Debug\Models.pdb
-C:\Projects\LatitudeMarker\Models\obj\Debug\Models.dll
-C:\Projects\LatitudeMarker\Models\obj\Debug\Models.pdb
