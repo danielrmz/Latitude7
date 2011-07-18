@@ -415,8 +415,10 @@ namespace Latitude7.API.Base
                 Method = WebMethod.Post,
                 Path = resource,
                 Credentials = Client.Credentials,
-                Entity = Loader.ToJson(entity)
+                QueryHandling = Hammock.QueryHandling.None
             };
+            
+            Client.QueryHandling = Hammock.QueryHandling.None;
 
             request.AddHeader("Content-Type", "application/json");
 
@@ -425,9 +427,9 @@ namespace Latitude7.API.Base
                 request.AddParameters(parameters);
             }
             // "Content-Type: multipart/form-data" 
-            //string str = ;
-            //request.AddPostContent(Encoding.UTF8.GetBytes(str));
-            //Client.AddPostContent(Encoding.UTF8.GetBytes(str));
+            string str = Loader.ToJson(entity);
+            request.AddPostContent(Encoding.UTF8.GetBytes(str));
+            Client.AddPostContent(Encoding.UTF8.GetBytes(str));
             
             RestResponse response = Client.Request(request);
 
