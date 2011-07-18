@@ -1,5 +1,0 @@
-C:\Projects\LatitudeMarker\Packages\Hammock\src\bin\lib\WP7\Hammock.WindowsPhone.dll
-C:\Projects\LatitudeMarker\Packages\Hammock\src\bin\lib\WP7\Hammock.WindowsPhone.pdb
-C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\Hammock.WindowsPhone\obj\Debug\ResolveAssemblyReference.cache
-C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\Hammock.WindowsPhone\obj\Debug\Hammock.WindowsPhone.dll
-C:\Projects\LatitudeMarker\Packages\Hammock\src\src\net40\Hammock.WindowsPhone\obj\Debug\Hammock.WindowsPhone.pdb
