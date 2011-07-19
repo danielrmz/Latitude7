@@ -38,6 +38,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Storage\DefaultStorageContainer.cs" />
+    <Compile Include="Storage\IStorageContainer.cs" />
     <Compile Include="Exceptions\InvalidTokenException.cs" />
     <Compile Include="Exceptions\GenericErrorException.cs" />
     <Compile Include="Exceptions\TokenNotFoundException.cs" />

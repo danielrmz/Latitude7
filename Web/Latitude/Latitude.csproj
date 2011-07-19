@@ -60,6 +60,12 @@
     <Compile Include="..\..\Common\API\Latitude.cs">
       <Link>Latitude.cs</Link>
     </Compile>
+    <Compile Include="..\..\Common\API\Storage\DefaultStorageContainer.cs">
+      <Link>Storage\DefaultStorageContainer.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\API\Storage\IStorageContainer.cs">
+      <Link>Storage\IStorageContainer.cs</Link>
+    </Compile>
     <Compile Include="Extensions\Latitude.Web.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

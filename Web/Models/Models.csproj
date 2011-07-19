@@ -59,11 +59,14 @@
     <Compile Include="..\..\Common\Models\Google\Common\SpecificError.cs">
       <Link>Google\Common\SpecificError.cs</Link>
     </Compile>
+    <Compile Include="..\..\Common\Models\Google\Latitude\History.cs">
+      <Link>Google\Latitude\History.cs</Link>
+    </Compile>
     <Compile Include="..\..\Common\Models\Google\Latitude\Location.cs">
       <Link>Google\Latitude\Location.cs</Link>
     </Compile>
-    <Compile Include="..\..\Common\Models\Google\Latitude\Parameters.Base.cs">
-      <Link>Google\Latitude\Parameters.Base.cs</Link>
+    <Compile Include="..\..\Common\Models\Google\Latitude\Parameters.cs">
+      <Link>Google\Latitude\Parameters.cs</Link>
     </Compile>
     <Compile Include="..\..\Common\Models\Google\Latitude\Result.cs">
       <Link>Google\Latitude\Result.cs</Link>

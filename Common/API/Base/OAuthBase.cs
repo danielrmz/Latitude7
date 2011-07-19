@@ -8,11 +8,13 @@ using Common7.Models.Google.OAuth;
 using Hammock;
 using Hammock.Web;
 using Hammock.Authentication.OAuth;
-using Common7.Models.Google.Latitude;
+
 using Common7.Models;
-using Latitude7.API.Exceptions;
 using Common7.Models.Google.Common;
-using Latitude.Exceptions;
+using Common7.Models.Google.Latitude;
+
+using Latitude7.API.Storage;
+using Latitude7.API.Exceptions;
 
 namespace Latitude7.API.Base
 {
@@ -44,6 +46,24 @@ namespace Latitude7.API.Base
         /// Defines if the OAuth client state is on authenticated. 
         /// </summary>
         public bool IsAuthenticated { get; set; }
+
+        /// <summary>
+        /// Storage container for tokens
+        /// </summary>
+        private static IStorageContainer<Token> _sessionStorage;
+        public static IStorageContainer<Token> SessionStorage
+        {
+            get
+            {
+                _sessionStorage = _sessionStorage ?? new DefaultStorageContainer<Token>();
+                return _sessionStorage;
+            }
+
+            set
+            {
+                _sessionStorage = value;
+            }
+        }
 
         #endregion
 
@@ -205,7 +225,7 @@ namespace Latitude7.API.Base
         /// </summary>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        protected RequestToken GetRequestToken(BaseParameters parameters) {
+        protected RequestToken GetRequestToken(Parameters parameters) {
             parameters.Domain = ConsumerKey;
 
             RestRequest request = new RestRequest() {
@@ -302,7 +322,7 @@ namespace Latitude7.API.Base
         /// </summary>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        private void SetAuthorizationUrl(RequestToken token, BaseParameters parameters)
+        private void SetAuthorizationUrl(RequestToken token, Parameters parameters)
         {
            token.AuthorizationUrl = string.Format(AuthorizationUrl + "?oauth_token={0}&oauth_callback={1}&domain={2}&location={3}&granularity={4}&scope={5}", 
                     token.Key, CallbackUrl, ConsumerKey, parameters.Location, parameters.Granularity, parameters.Scope);
@@ -322,12 +342,14 @@ namespace Latitude7.API.Base
         /// <param name="token"></param>
         protected void SaveSession(Token token)
         {
-            _tokens.Add(this.SessionId.ToString() + "-" + token.GetType().ToString(), token);
+            string key = this.SessionId.ToString() + "-" + token.GetType().ToString();
+            SessionStorage.Set(key, token);
         }
 
         public static bool ExistsAccessToken(Guid sessionId)
         {
-            return _tokens.ContainsKey(sessionId.ToString() + "-" + typeof(AccessToken).ToString());
+            string key = sessionId.ToString() + "-" + typeof(AccessToken).ToString();
+            return SessionStorage.Exists(key);
         }
 
         /// <summary>
@@ -338,7 +360,7 @@ namespace Latitude7.API.Base
         protected T GetSession<T>() where T:Token
         {
             string key = this.SessionId.ToString() + "-" + typeof(T).ToString();
-            Token temp = _tokens.ContainsKey(key) ? _tokens[key] : null;
+            Token temp = SessionStorage.Exists(key) ? SessionStorage.Get(key) : null; //_tokens.ContainsKey(key) ? _tokens[key] : null;
 
             if (temp == null)
             {

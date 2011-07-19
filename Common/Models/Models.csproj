@@ -53,8 +53,9 @@
     <Compile Include="Google\Common\Error.cs" />
     <Compile Include="Google\Common\ErrorContainer.cs" />
     <Compile Include="Google\Common\SpecificError.cs" />
+    <Compile Include="Google\Latitude\History.cs" />
     <Compile Include="Google\Latitude\Location.cs" />
-    <Compile Include="Google\Latitude\Parameters.Base.cs" />
+    <Compile Include="Google\Latitude\Parameters.cs" />
     <Compile Include="Google\Latitude\Result.cs" />
     <Compile Include="Google\OAuth\Token.Access.cs" />
     <Compile Include="Google\OAuth\Token.cs" />

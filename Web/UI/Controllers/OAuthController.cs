@@ -29,14 +29,7 @@ namespace Latitude7.UI.Controllers
             {
                 try
                 {
-                    return Json(api.InsertCurrentLocation(new Location()
-                                {
-                                    latitude = 25.599575,
-                                    longitude = -100.265839, 
-                                    kind = "latitude#location",
-                                    accuracy = 0,
-                                    timeStamp = timestamp() * 1000
-                                }), JsonRequestBehavior.AllowGet);
+                    return Json(api.ListLocations(null), JsonRequestBehavior.AllowGet);
                 }
                 catch (GenericErrorException gee)
                 {
@@ -57,14 +50,7 @@ namespace Latitude7.UI.Controllers
             {
                 Latitude api = this.GetAPI(session_id, oauth_verifier);
             
-                return Json(api.InsertCurrentLocation(new Location()
-                            {
-                                latitude = 25.599575,
-                                longitude = -100.265839,
-                                kind = "latitude#location",
-                                accuracy = 0,
-                                timeStamp = timestamp() * 1000
-                            }), JsonRequestBehavior.AllowGet);
+                return Json(api.ListLocations(null), JsonRequestBehavior.AllowGet);
             }
             catch (Exception e)
             {

@@ -10,7 +10,7 @@ namespace Common7.Models.Google.Latitude
         public string kind { get;set;}
 
         [DataMember(Name = "timestampMs")]
-        public double timeStamp { get; set ;}
+        public double timestampMs { get; set; }
 
         [DataMember(Name = "latitude")]
         public double latitude { get; set; }
