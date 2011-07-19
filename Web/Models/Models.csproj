@@ -56,6 +56,9 @@
     <Compile Include="..\..\Common\Models\Google\Common\ErrorContainer.cs">
       <Link>Google\Common\ErrorContainer.cs</Link>
     </Compile>
+    <Compile Include="..\..\Common\Models\Google\Common\IParameters.cs">
+      <Link>Google\Common\IParameters.cs</Link>
+    </Compile>
     <Compile Include="..\..\Common\Models\Google\Common\SpecificError.cs">
       <Link>Google\Common\SpecificError.cs</Link>
     </Compile>

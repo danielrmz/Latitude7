@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Collections.Generic;
+using Common7.Models.Google.Common;
 
 namespace Common7.Models.Google.Latitude
 {
@@ -8,7 +9,7 @@ namespace Common7.Models.Google.Latitude
     /// Parameters used through the Latitude API.
     /// TODO: Separate in subclasses, those used for auth and for query handling.
     /// </summary>
-    public class Parameters
+    public class Parameters : IParameters
     {
         #region Authorization Params
 
@@ -83,7 +84,9 @@ namespace Common7.Models.Google.Latitude
             }
             #endregion  
           
-            if(!string.IsNullOrEmpty(MinTime)) {
+            #region List params
+
+            if (!string.IsNullOrEmpty(MinTime)) {
                 parameters.Add("min-time", MinTime);
             }
 
@@ -93,6 +96,8 @@ namespace Common7.Models.Google.Latitude
             if(!string.IsNullOrEmpty(MaxResults)) {
                 parameters.Add("max-results", MaxResults);
             }
+            
+            #endregion
 
             return parameters;
         }

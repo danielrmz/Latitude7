@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Google\Common\Error.cs" />
     <Compile Include="Google\Common\ErrorContainer.cs" />
+    <Compile Include="Google\Common\IParameters.cs" />
     <Compile Include="Google\Common\SpecificError.cs" />
     <Compile Include="Google\Latitude\History.cs" />
     <Compile Include="Google\Latitude\Location.cs" />

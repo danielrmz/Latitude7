@@ -9,6 +9,7 @@ using Hammock.Web;
 
 using Common7.Models.Google.OAuth;
 using Common7.Models.Google.Latitude;
+using Common7.Models.Google.Common;
 
 namespace Latitude7.API
 {
@@ -17,11 +18,11 @@ namespace Latitude7.API
         #region Constants related to Google Latitude API
 
         private const string REQUEST_TOKEN_URL = "https://www.google.com/accounts/OAuthGetRequestToken";
-        private const string ACCESS_TOKEN_URL = "https://www.google.com/accounts/OAuthGetAccessToken";
+        private const string ACCESS_TOKEN_URL  = "https://www.google.com/accounts/OAuthGetAccessToken";
         private const string AUTHORIZATION_URL = "https://www.google.com/latitude/apps/OAuthAuthorizeToken";
-        private const string SCOPE = "https://www.googleapis.com/auth/latitude";
-        private const string REST_URL = "https://www.googleapis.com/latitude/v1/{0}?key={1}";
-        private const string REST_URL_NOSSL = "http://www.googleapis.com/latitude/v1/{0}?key={1}";
+        private const string SCOPE             = "https://www.googleapis.com/auth/latitude";
+        private const string REST_URL          = "https://www.googleapis.com/latitude/v1/{0}?key={1}";
+        private const string REST_URL_NOSSL    = "http://www.googleapis.com/latitude/v1/{0}?key={1}";
 
         /// <summary>
         /// API Key provided by Google. (Google-specific parameter for accessing resources)

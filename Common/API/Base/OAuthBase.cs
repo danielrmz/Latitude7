@@ -225,9 +225,8 @@ namespace Latitude7.API.Base
         /// </summary>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        protected RequestToken GetRequestToken(Parameters parameters) {
-            parameters.Domain = ConsumerKey;
-
+        protected RequestToken GetRequestToken(IParameters parameters) {
+            
             RestRequest request = new RestRequest() {
                 Path = RequestTokenUrl, 
                 Method = WebMethod.Post, 
@@ -251,6 +250,7 @@ namespace Latitude7.API.Base
 
             string[] sp = response.Content.Split('&');
             RequestToken t = new RequestToken(sp[0].Split('=').Last(), sp[1].Split('=').Last());
+            
             this.SetAuthorizationUrl(t, parameters);
 
             this.SaveSession(t);
@@ -322,10 +322,12 @@ namespace Latitude7.API.Base
         /// </summary>
         /// <param name="parameters"></param>
         /// <returns></returns>
-        private void SetAuthorizationUrl(RequestToken token, Parameters parameters)
+        private void SetAuthorizationUrl(RequestToken token, IParameters parameters)
         {
-           token.AuthorizationUrl = string.Format(AuthorizationUrl + "?oauth_token={0}&oauth_callback={1}&domain={2}&location={3}&granularity={4}&scope={5}", 
-                    token.Key, CallbackUrl, ConsumerKey, parameters.Location, parameters.Granularity, parameters.Scope);
+            Dictionary<string, string> paramsStr = parameters.ToDictionary();
+            string queryParams = paramsStr.Count == 0 ? string.Empty : "&" + string.Join("&", paramsStr.Select(kvp => kvp.Key + "=" + kvp.Value).ToArray());
+            token.AuthorizationUrl = string.Format(AuthorizationUrl + "?oauth_token={0}&oauth_callback={1}&domain={2}{3}", 
+                    token.Key, CallbackUrl, ConsumerKey, queryParams);
            
         }
         
